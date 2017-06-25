@@ -13,6 +13,14 @@
 		4364A53E1EFF651600011EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4364A53C1EFF651600011EC8 /* LaunchScreen.storyboard */; };
 		4364A5471EFF665100011EC8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364A5461EFF665100011EC8 /* MainVC.swift */; };
 		4364A54A1EFF666C00011EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4364A5491EFF666C00011EC8 /* Main.storyboard */; };
+		4364A5F61EFF791C00011EC8 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364A5EE1EFF791C00011EC8 /* Image+CoreDataProperties.swift */; };
+		4364A5F71EFF791C00011EC8 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364A5EF1EFF791C00011EC8 /* Product+CoreDataProperties.swift */; };
+		4364A5F81EFF791C00011EC8 /* ProductType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364A5F01EFF791C00011EC8 /* ProductType+CoreDataProperties.swift */; };
+		4364A5F91EFF791C00011EC8 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364A5F11EFF791C00011EC8 /* Store+CoreDataProperties.swift */; };
+		4364A5FA1EFF791C00011EC8 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364A5F21EFF791C00011EC8 /* Image+CoreDataClass.swift */; };
+		4364A5FB1EFF791C00011EC8 /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364A5F31EFF791C00011EC8 /* Product+CoreDataClass.swift */; };
+		4364A5FC1EFF791C00011EC8 /* ProductType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364A5F41EFF791C00011EC8 /* ProductType+CoreDataClass.swift */; };
+		4364A5FD1EFF791C00011EC8 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364A5F51EFF791C00011EC8 /* Store+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		4364A53F1EFF651600011EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4364A5461EFF665100011EC8 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		4364A5491EFF666C00011EC8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4364A5EE1EFF791C00011EC8 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4364A5EF1EFF791C00011EC8 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4364A5F01EFF791C00011EC8 /* ProductType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProductType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4364A5F11EFF791C00011EC8 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4364A5F21EFF791C00011EC8 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4364A5F31EFF791C00011EC8 /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4364A5F41EFF791C00011EC8 /* ProductType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProductType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4364A5F51EFF791C00011EC8 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +72,7 @@
 		4364A52F1EFF651600011EC8 /* MyPurchases */ = {
 			isa = PBXGroup;
 			children = (
-				4364A54B1EFF667800011EC8 /* Model */,
+				4364A5EC1EFF791C00011EC8 /* Model */,
 				4364A5481EFF666C00011EC8 /* View */,
 				4364A5451EFF665100011EC8 /* Controller */,
 				4364A5301EFF651600011EC8 /* AppDelegate.swift */,
@@ -84,11 +100,27 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		4364A54B1EFF667800011EC8 /* Model */ = {
+		4364A5EC1EFF791C00011EC8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4364A5ED1EFF791C00011EC8 /* Generated */,
+				4364A5F21EFF791C00011EC8 /* Image+CoreDataClass.swift */,
+				4364A5F31EFF791C00011EC8 /* Product+CoreDataClass.swift */,
+				4364A5F41EFF791C00011EC8 /* ProductType+CoreDataClass.swift */,
+				4364A5F51EFF791C00011EC8 /* Store+CoreDataClass.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4364A5ED1EFF791C00011EC8 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				4364A5EE1EFF791C00011EC8 /* Image+CoreDataProperties.swift */,
+				4364A5EF1EFF791C00011EC8 /* Product+CoreDataProperties.swift */,
+				4364A5F01EFF791C00011EC8 /* ProductType+CoreDataProperties.swift */,
+				4364A5F11EFF791C00011EC8 /* Store+CoreDataProperties.swift */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,8 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4364A5F71EFF791C00011EC8 /* Product+CoreDataProperties.swift in Sources */,
+				4364A5FC1EFF791C00011EC8 /* ProductType+CoreDataClass.swift in Sources */,
 				4364A5311EFF651600011EC8 /* AppDelegate.swift in Sources */,
+				4364A5F61EFF791C00011EC8 /* Image+CoreDataProperties.swift in Sources */,
+				4364A5F81EFF791C00011EC8 /* ProductType+CoreDataProperties.swift in Sources */,
 				4364A5471EFF665100011EC8 /* MainVC.swift in Sources */,
+				4364A5FD1EFF791C00011EC8 /* Store+CoreDataClass.swift in Sources */,
+				4364A5F91EFF791C00011EC8 /* Store+CoreDataProperties.swift in Sources */,
+				4364A5FA1EFF791C00011EC8 /* Image+CoreDataClass.swift in Sources */,
+				4364A5FB1EFF791C00011EC8 /* Product+CoreDataClass.swift in Sources */,
 				4364A5391EFF651600011EC8 /* MyPurchases.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
